@@ -1,0 +1,165 @@
+{
+    "addons": {
+        "analytics": {
+            "code": null,
+            "enabled": true
+        },
+        "ethicalads": {
+            "ad_free": false,
+            "campaign_types": [
+                "community",
+                "house",
+                "paid"
+            ],
+            "enabled": true,
+            "keywords": [
+                "only words",
+                "readthedocs-project-815321",
+                "readthedocs-project-readthedocs-about"
+            ],
+            "publisher": "readthedocs"
+        },
+        "external_version_warning": {
+            "enabled": true
+        },
+        "flyout": {
+            "downloads": [],
+            "enabled": false,
+            "translations": [],
+            "versions": []
+        },
+        "hotkeys": {
+            "doc_diff": {
+                "enabled": true,
+                "trigger": "KeyD"
+            },
+            "enabled": true,
+            "search": {
+                "enabled": true,
+                "trigger": "Slash"
+            }
+        },
+        "non_latest_version_warning": {
+            "enabled": true,
+            "versions": []
+        },
+        "search": {
+            "api_endpoint": "/_/api/v3/search/",
+            "default_filter": "project:readthedocs-about/latest",
+            "enabled": true,
+            "filters": [
+                [
+                    "Include subprojects",
+                    "subprojects:readthedocs-about/latest"
+                ]
+            ],
+            "project": "readthedocs-about",
+            "version": "latest"
+        }
+    },
+    "api_version": "0",
+    "builds": {
+        "current": {
+            "commit": "bfe2379c4ebd705be3f2c16c4f9ef8d7a3b05b3c",
+            "created": "2024-03-26T18:44:53.026176Z",
+            "duration": 52,
+            "error": "",
+            "finished": "2024-03-26T18:45:45.026Z",
+            "id": 23879401,
+            "project": "readthedocs-about",
+            "state": {
+                "code": "finished",
+                "name": "Finished"
+            },
+            "success": true,
+            "urls": {
+                "build": "https://readthedocs.org/readthedocs-about/builds/23879401/",
+                "project": "https://readthedocs.org/readthedocs-about/",
+                "version": "https://readthedocs.org/readthedocs-about/version/latest/edit/"
+            },
+            "version": "latest"
+        }
+    },
+    "comment": "THIS RESPONSE IS IN ALPHA FOR TEST PURPOSES ONLY AND IT'S GOING TO CHANGE COMPLETELY -- DO NOT USE IT!",
+    "domains": {
+        "dashboard": "readthedocs.org"
+    },
+    "projects": {
+        "current": {
+            "created": "2022-08-25T21:08:19.715086Z",
+            "default_branch": "main",
+            "default_version": "latest",
+            "external_builds_privacy_level": "public",
+            "homepage": "https://github.com/readthedocs/website",
+            "id": 815321,
+            "language": {
+                "code": "en",
+                "name": "English"
+            },
+            "modified": "2023-08-01T21:28:36.841948Z",
+            "name": "readthedocs-about",
+            "privacy_level": "public",
+            "programming_language": {
+                "code": "words",
+                "name": "Only Words"
+            },
+            "repository": {
+                "type": "git",
+                "url": "https://github.com/readthedocs/website.git"
+            },
+            "single_version": true,
+            "slug": "readthedocs-about",
+            "subproject_of": null,
+            "tags": [],
+            "translation_of": null,
+            "urls": {
+                "builds": "https://readthedocs.org/readthedocs-about/builds/",
+                "documentation": "https://about.readthedocs.com/",
+                "home": "https://readthedocs.org/readthedocs-about/",
+                "versions": "https://readthedocs.org/readthedocs-about/versions/"
+            },
+            "users": [
+                {
+                    "username": "eric"
+                },
+                {
+                    "username": "humitos"
+                },
+                {
+                    "username": "agj"
+                },
+                {
+                    "username": "stsewd"
+                }
+            ],
+            "versioning_scheme": "single_version_without_translations"
+        }
+    },
+    "readthedocs": {
+        "analytics": {
+            "code": "UA-17997319-1"
+        }
+    },
+    "versions": {
+        "current": {
+            "active": true,
+            "built": true,
+            "downloads": {},
+            "hidden": false,
+            "id": 9550665,
+            "identifier": "main",
+            "privacy_level": "public",
+            "ref": null,
+            "slug": "latest",
+            "type": "branch",
+            "urls": {
+                "dashboard": {
+                    "edit": "https://readthedocs.org/readthedocs-about/version/latest/edit/"
+                },
+                "documentation": "https://about.readthedocs.com/",
+                "vcs": "https://github.com/readthedocs/website/tree/main/"
+            },
+            "verbose_name": "latest"
+        }
+    }
+}
